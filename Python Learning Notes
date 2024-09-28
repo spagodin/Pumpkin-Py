@@ -1,0 +1,12 @@
+CTRL+SHIFT+P : Python Create Environment
+
+.gitignore -> .venv/
+
+To activate .venv from terminal: source .venv/bin/activate
+To deactivate .venv from terminal: deactivate
+
+Proper pip install <package>: (docs.python.org/3/installing/index.html)
+
+python -m pip install <SomePackage>
+
+
