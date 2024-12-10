@@ -115,7 +115,7 @@ def challenge_6():
         else:
             results[k] = v
     print(results)
-     
+  
 """
 Alternative could import 'from collections import Counter
 
