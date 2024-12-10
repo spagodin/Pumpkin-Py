@@ -21,4 +21,12 @@ def string_reverse(w):
     
 #Write a function that takes a positive integer as input and returns the sum of its digits
 
+def sum_digits(n):
+    total = 0
+    for i in str(n):
+        total += int(i)
+    return total
 
+x = sum_digits(1234)
+y = sum_digits(123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789)
+print(y)
